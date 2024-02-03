@@ -1,13 +1,13 @@
 :root {
-    background-color: #1a1a2e;
-    --color: #ffffff;
-    --gray: #edeef7;
-    --white: #ffffff;
-    --primary-color: #0f3460;
-    --background-transparent: rgba(48, 48, 180, 0.12); 
-    --poppins: "Poppins", sans-serif;
-    --shadow-opacity: 0.3;
-    --blur: 100px;
+	background-color: #1a1a2e;
+	--color: #ffffff;
+	--gray: #edeef7;
+	--white: #ffffff;
+	--primary-color: #0f3460;
+	--background-transparent: rgba(48, 48, 180, 0.12);
+	--poppins: "Poppins", sans-serif;
+	--shadow-opacity: 0.3;
+	--blur: 100px;
 }
 
 body {
@@ -31,19 +31,19 @@ body {
 }
 
 #team-members {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    width: 100%;
-    max-width: 1000px;
-    margin: auto;
-    padding: 100px;
-    background: var(--background-transparent); 
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(var(--blur));
-    border-radius: 20px;
-    border: 1px solid rgba(var(--white), 0.08);
-    filter: drop-shadow(0px 20px 10px rgba(0, 0, 0, var(--shadow-opacity)));
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	padding: 100px;
+	background: var(--background-transparent);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(var(--blur));
+	border-radius: 20px;
+	border: 1px solid rgba(var(--white), 0.08);
+	filter: drop-shadow(0px 20px 10px rgba(0, 0, 0, var(--shadow-opacity)));
 }
 
 
@@ -75,6 +75,7 @@ body {
 		h3 {
 			font-size: large;
 		}
+
 		p {
 			font-size: smaller;
 		}
@@ -105,25 +106,54 @@ body {
 }
 
 .add-contact-btn-container {
-    text-align: center;
-    margin-top: 20px; 
+	text-align: center;
+	margin-top: 20px;
 }
 
 .add-contact-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    text-decoration: none;
-    color: var(--white); 
-    background-color: var(--primary-color); 
-    border: 2px solid var(--primary-color); 
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	color: var(--white);
+	background-color: var(--primary-color);
+	border: 2px solid var(--primary-color);
 	border-radius: 70px;
-    border-radius: 8px;
-    transition: background-color 0.3s ease, color 0.3s ease;
+	border-radius: 8px;
+	transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .add-contact-btn:hover {
-    background-color: var(--primary-color-light); 
-    color: var(--white); 
+	background-color: var(--primary-color-light);
+	color: var(--white);
 }
+
+.popup-container {
+    position: absolute;
+    top: 50%;
+    left: 69%;
+    transform: translate(-50%, -50%);
+    background: #aa99996c; 
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+	align-items: center;
+}
+
+.popup-content{
+	text-align: center;
+}
+.close-popup {
+	background-color: #e74c3c;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+/* ... (Estilos existentes) */
