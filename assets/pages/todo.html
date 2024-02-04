@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="../styles/styletodo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        th, td {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form onsubmit="event.preventDefault(); addTask()" action="/tasks" method="POST">
+                    <div class="form-group">
+                        <label for="input-name">Tarea</label>
+                        <input class="form-control" id="input-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="input-priority">Prioridad</label>
+                        <input type="number" class="form-control" id="input-priority" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-3">Agregar Tarea</button>
+                    <a href="../pages/contactos.html" class="btn btn-primary mt-3">Contactos</a>
+                </form>
+            </div>
+        </div>
+        <table class="table table-bordered mt-5">
+            <thead>
+                <tr>
+                    <th>Tarea</th>
+                    <th>Prioridad</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+            </tbody>
+        </table>
+    </div>
+    <script src="../scripts/todo.js"></script>
+</body>
+</html>

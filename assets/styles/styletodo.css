@@ -1,0 +1,38 @@
+:root {
+    --background-color: #272747;
+    --white: #ffffff;
+    --primary-color: #0f3460;
+    --background-transparent: rgba(48, 48, 180, 0.12);
+    --poppins: "Poppins", sans-serif;
+    --shadow-opacity: 0.3;
+    --blur: 100px;
+}
+
+.container {
+    background-color: var(--gray);
+    color: var(--color);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-group label {
+    color: var(--color);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--color);
+    border: none;
+}
+
+.table th,
+.table td {
+    background-color: var(--gray);
+    color: var(--color);
+}
+
+.btn-secondary {
+    background-color: var(--background-color);
+    color: var(--color);
+    border: none;
+}
