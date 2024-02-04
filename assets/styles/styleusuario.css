@@ -1,5 +1,13 @@
 html {
-    background: #fff;
+    background-color: #1a1a2e;
+	--color: #ffffff;
+	--gray: #edeef7;
+	--white: #ffffff;
+	--primary-color: #0f3460;
+	--background-transparent: rgba(48, 48, 180, 0.12);
+	--poppins: "Poppins", sans-serif;
+	--shadow-opacity: 0.3;
+	--blur: 100px;
   }
   
   .content {
@@ -13,7 +21,7 @@ html {
   }
   
   header#cover-page {
-    background: url("https://static.pexels.com/photos/93013/pexels-photo-93013-large.jpeg");
+    background: url("https://img.freepik.com/vector-gratis/fondo-azul-degradado_23-2149347096.jpg?size=626&ext=jpg&ga=GA1.1.87170709.1706918400&semt=ais");
     width: 100%;
     height: 295px;
     position: relative;
