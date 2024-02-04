@@ -156,3 +156,9 @@ body {
 	cursor: pointer;
 	margin-top: 10px;
 }
+
+.favorite-icon {
+    cursor: pointer;
+    color: gold; 
+    font-size: 20px; 
+}
