@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../styles/stylecontacto.css">
+    <title>Contactos</title>
+</head>
+
+<body>
+    <div id="team-members">
+        <br>
+        <div class="add-contact-btn-container">
+            <a href="../pages/agregarContacto.html" class="add-contact-btn">Agregar Nuevo Contacto</a>
+        </div>
+        <div class="add-contact-btn-container">
+            <a href="../pages/usuario.html" class="add-contact-btn">Usuario</a>
+        </div>
+        <div class="add-contact-btn-container">
+            <a href="../pages/favoritos.html" class="add-contact-btn">favoritos</a>
+        </div>
+        <div class="add-contact-btn-container">
+            <a href="../pages/todo.html" class="add-contact-btn">ToDo</a>
+        </div>
+        <br><br>
+        <article id="contact-1" class="team-member">
+            <img class="team-member-avatar" src="https://eu.ui-avatars.com/api/?name=Diego Alvarez&amp;size=140"
+                alt="Team Member" />
+            <div class="team-member-name">
+                <h3>Diego Alvarez</h3>
+                <p>+502 5557 6196</p>
+            </div>
+            <ul class="social-links">
+                <li><a href="#" class="info-icon" onclick="openPopup(event, 'popup-1')"> <i
+                            class="fas fa-info-circle"></i></a></li>
+            </ul>
+            <div id="popup-1" class="popup-container">
+                <div class="popup-content">
+                    <h3>Diego Alvarez</h3>
+                    <p>+502 5557 6196</p>
+                    <p>Dalvarez-2022277@kinal.edu.gt</p>
+                    <button class="close-popup" onclick="closePopup('popup-1')">Cerrar</button>
+                </div>
+            </div>
+        </article>
+        <article id="contact-2" class="team-member">
+            <img class="team-member-avatar" src="https://eu.ui-avatars.com/api/?name=Sebastian Istacuy&amp;size=140"
+                alt="Team Member" />
+            <div class="team-member-name">
+                <h3>Sebastian Istacuy</h3>
+                <p>+502 8790 0291</p>
+            </div>
+            <ul class="social-links">
+                <li><a href="#" class="info-icon" onclick="openPopup(event, 'popup-2')"> <i
+                            class="fas fa-info-circle"></i></a></li>
+            </ul>
+            <div id="popup-2" class="popup-container">
+                <div class="popup-content">
+                    <h3>Sebastian Istacuy</h3>
+                    <p>+502 8790 0291</p>
+                    <p>Sistacuy-2022017@kinal.edu.gt</p>
+                    <button class="close-popup" onclick="closePopup('popup-2')">Cerrar</button>
+                </div>
+            </div>
+        </article>
+        <article id="contact-3" class="team-member">
+            <img class="team-member-avatar" src="https://eu.ui-avatars.com/api/?name=David Arevalo&amp;size=140"
+                alt="Team Member" />
+            <div class="team-member-name">
+                <h3>David Arevalo</h3>
+                <p>+502 5871 0090</p>
+            </div>
+            <ul class="social-links">
+                <li><a href="#" class="info-icon" onclick="openPopup(event, 'popup-3')"> <i
+                            class="fas fa-info-circle"></i></a></li>
+            </ul>
+            <div id="popup-3" class="popup-container">
+                <div class="popup-content">
+                    <h3>David Arevalo</h3>
+                    <p>+502 5871 0090</p>
+                    <p>Darevalo-2022190@kinal.edu.gt</p>
+                    <button class="close-popup" onclick="closePopup('popup-3')">Cerrar</button>
+                </div>
+            </div>
+        </article>
+        <article id="contact-4" class="team-member">
+            <img class="team-member-avatar" src="https://eu.ui-avatars.com/api/?name=Saul Alvarez&amp;size=140"
+                alt="Team Member" />
+            <div class="team-member-name">
+                <h3>Saul Alvarez</h3>
+                <p>+502 5151 6913</p>
+            </div>
+            <ul class="social-links">
+                <li><a href="#" class="info-icon" onclick="openPopup(event, 'popup-4')"> <i
+                            class="fas fa-info-circle"></i></a></li>
+            </ul>
+            <div id="popup-4" class="popup-container">
+                <div class="popup-content">
+                    <h3>Saul Alvarez</h3>
+                    <p>+502 5151 6913</p>
+                    <p>Sebastianalvz@gmail.com</p>
+                    <button class="close-popup" onclick="closePopup('popup-4')">Cerrar</button>
+                </div>
+            </div>
+        </article>
+        <article id="contact-5" class="team-member">
+            <img class="team-member-avatar" src="https://eu.ui-avatars.com/api/?name=Wendy Pernillo&amp;size=140"
+                alt="Team Member" />
+            <div class="team-member-name">
+                <h3>Wendy Pernillo</h3>
+                <p>+502 8778 0921</p>
+            </div>
+            <ul class="social-links">
+                <li><a href="#" class="info-icon" onclick="openPopup(event, 'popup-5')">
+                        <i class="fas fa-info-circle"></i>
+                    </a></li>
+            </ul>
+            <div id="popup-5" class="popup-container">
+                <div class="popup-content">
+                    <h3>Wendy Pernillo</h3>
+                    <p>+502 8778 0921</p>
+                    <p>Wsamanta@gmail.com</p>
+                    <button class="close-popup" onclick="closePopup('popup-5')">Cerrar</button>
+                </div>
+            </div>
+        </article>
+    </div>
+    <script src="../scripts/logicaindex.js"></script>
+</body>
+
+</html>
